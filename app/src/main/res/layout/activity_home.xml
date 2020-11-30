@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sabzishoppee.activities.Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top|center"
+        android:orientation="vertical">
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="0dp"
+            android:background="?android:attr/windowBackground"
+            app:itemIconTint="@color/blue"
+            app:itemTextColor="@color/blue"
+            app:menu="@menu/navigation" />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:weightSum="2">
+           <FrameLayout
+               android:id="@+id/veg_underline"
+               android:layout_width="0dp"
+               android:layout_height="2dp"
+               android:layout_gravity="start"
+               android:layout_weight="1"
+               android:background="@color/colorPrimary"
+               />
+           <FrameLayout
+               android:id="@+id/fruit_underline"
+               android:layout_width="0dp"
+               android:layout_height="2dp"
+               android:layout_gravity="start"
+               android:layout_weight="1"
+               android:background="@color/colorPrimary"
+               android:visibility="invisible"
+               />
+       </LinearLayout>
+        <FrameLayout
+            android:id="@+id/product_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</FrameLayout>

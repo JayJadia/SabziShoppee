@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_vegetable"
+        android:icon="@drawable/ic_vegetable"
+        android:title="@string/nav_item_vegetable" />
+    <item
+        android:id="@+id/navigation_fruit"
+        android:icon="@drawable/ic_harvest"
+        android:title="@string/nav_item_fruit" />
+</menu>

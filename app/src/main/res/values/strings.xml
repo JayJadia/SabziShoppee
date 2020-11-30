@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SabziShoppee</string>
+    <string name="login_activity_label">Sign In</string>
+    <string name="home_activity_label">Home</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="nav_item_vegetable">Vegetables</string>
+    <string name="nav_item_fruit">Fruits</string>
+
+    <string name="order_button_text">Add To Cart</string>
+
+    <string name="product_title_text">Product Name</string>
+    <string name="empty_cart_msg">Add Products to your cart. \n Press back to continue shopping.</string>
+    <string name="register_message">Contact admin to get your login Id and password and start shopping today</string>
+    <string name="search_hint">Search</string>
+</resources>
